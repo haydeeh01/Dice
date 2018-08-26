@@ -11,14 +11,14 @@ if question.lower() == "r":
     print(random.randint(min, max))
     print(random.randint(min, max))
 while not done:
-    again =  input("Would you like to roll again? Y/N")
+    again = input("Would you like to roll again? Y/N")
     if again.lower() == "n":
         print("Goodbye.")
         time.sleep(1)
         done = True
         exit()
-    if again.lower() =="y":
-        done =  False
+    if again.lower() == "y":
+        done = False
         print("Rolling...")
         time.sleep(1)
         print(random.randint(min, max))
