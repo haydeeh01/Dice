@@ -1,2 +1,2 @@
 # Dice
-Run from dice.txt in python
+Run from dice.txt in python or run dice.py
